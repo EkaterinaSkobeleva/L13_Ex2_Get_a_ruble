@@ -5,12 +5,11 @@ public class Main {
         int amount = 15_000;
         int newBalance;
         double totalBalance;
+        newBalance = initialBalance + amount;
         if (amount > 1000) {
-            newBalance = initialBalance + amount;
             bonus = amount / 100;
             totalBalance = newBalance + bonus;
         } else {
-            newBalance = initialBalance + amount;
             bonus = 0;
             totalBalance = newBalance;
         }
